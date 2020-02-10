@@ -32,8 +32,8 @@ function demo_calibration(dataset_path, sequence_id)
         figure(1); clf;
         imshow(im_l); axis equal; axis tight; hold on;
         scatter(points_2d_l(:,1), points_2d_l(:,2)); hold on;
-        plot([0, imsize(1)], hor_line_param(1) * [0, imsize(1)] + hor_line_param(2), 'c', 'linewidth', 3); hold on;
-        plot([0, imsize(1)], hor_line_param(1) * [0, imsize(1)] + hor_line_param(2), 'y', 'linewidth', 1);
+        plot([0, imsize(1)], hor_line_param(1) * [0, imsize(1)] + hor_line_param(2), 'black', 'linewidth', 3); hold on;
+        plot([0, imsize(1)], hor_line_param(1) * [0, imsize(1)] + hor_line_param(2), 'yellow', 'linewidth', 1);
         drawnow;
         
     end
