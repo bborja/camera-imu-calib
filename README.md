@@ -19,9 +19,9 @@ demo_calibration('../MarineDatasets/MODD2', 14)
 ```
 
 ### Horizon estimation results
-Results obtained on <a href="https://github.com/bborja/modd">MODD2 dataset</a> with the provided code. Horizon estimation results can be further improved with a more effective plane-fitting.
+Results obtained on <a href="https://github.com/bborja/modd">MODD2 dataset</a> with the provided code. Horizon estimation results can be further improved with a more effective plane-fitting. Click on the below image to see the whole video.
 
-[![](http://img.youtube.com/vi/YbiXGpxz0hY/0.jpg)](http://www.youtube.com/watch?v=YbiXGpxz0hY "A Quick and Effective Camera-IMU Calibration (Results)")
+[![Horizon estimation example](horizon_estimation_example.gif)](http://www.youtube.com/watch?v=YbiXGpxz0hY "A Quick and Effective Camera-IMU Calibration (Results)")
 
 
 ### Cite
