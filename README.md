@@ -1,5 +1,6 @@
 # Quick Camera-IMU Calibration
 A Quick and Effective Camera-IMU Calibration for MODD2 dataset, written in Matlab.
+https://doi.org/10.1016/j.robot.2018.02.017
 
 Requirements: Matlab2016+ with OpenCV3.0+ library
 
@@ -19,3 +20,18 @@ demo_calibration('../MarineDatasets/MODD2', 14)
 
 ### Results
 TODO yt video
+
+
+### Cite
+If you use the provided code, please cite our paper:
+```
+@article{bovcon2018stereo,
+  title={Stereo obstacle detection for unmanned surface vehicles by IMU-assisted semantic segmentation},
+  author={Bovcon, Borja and Per{\v{s}}, Janez and Kristan, Matej and others},
+  journal={Robotics and Autonomous Systems},
+  volume={104},
+  pages={1--13},
+  year={2018},
+  publisher={Elsevier}
+}
+```
