@@ -9,7 +9,7 @@ There are two main functions: <i>getGroundPlane</i> and <i>getVanishingPoints</i
 ### getGroundPlane:
 This function fits a plane on the ground points located in-front-of the USV and reads the initial rotations provided by the on-board IMU. From this we can obtain two rotation matrices (1) R_{CAM}^{USV} (rotation from the camera coordinate system to the USV coordinate system) and (2) R_{IMU}^{USV} (rotation from the IMU coordinate system to the USV coordinate system).
 
-[![Plane fitting](images/plane_fitting.jpg)]
+![Plane fitting](images/plane_fitting.jpg)
 
 ### getVanishingPoints:
 This function reads current measurements of the IMU. Based on this measurements (and R_{IMU}^{USV}) it rotates the points in infinity, defined in the IMU coordinate system, to the world coordinate system. By projecting the selected points from the world coordinate to the camera plane we are able to obtain the approximate location of the horizon line.
